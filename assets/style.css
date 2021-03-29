@@ -162,10 +162,10 @@ footer h3, footer p{
     .design,
     .link{
     margin:0;
-    padding:2%;
+    padding:0;
     }
     .card{
-        margin:0;
+        margin:5px 0;
     }
 
 }
