@@ -52,14 +52,9 @@ h3 {
 
 .about {
     margin:2%;
-    /* font-family: Arimo; */
     text-align: center;
     line-height: 1.5;
     color: #455C78; 
-    /* border-width: 15px;
-    border-style: solid;
-    border-color: #C5D0DE; */
-    
     padding: 30px 30px;
 
 }
@@ -69,8 +64,6 @@ h3 {
     text-align: center;
     line-height: 1.2;
     color: #455C78; 
-
-
 }
 
 .coding,
@@ -137,5 +130,42 @@ footer h3, footer p{
     text-align:center;
     font-size: 1.2em;
     color:#F4F7FA;
+
+}
+
+@media screen and (max-width: 512px) {
+     
+    h1{
+        font-size:1.8em;
+    }
+    h2{
+        font-size:1.4em;
+        padding:15px;
+    }
+    h3{
+        font-size:1em;
+    }
+    .about {
+        margin:0;
+        text-align: center;
+        line-height: 1.2;
+        color: #455C78;       
+        padding: 20px 20px;
+    }
+     .content {
+        margin: 0;
+        text-align: center;
+        line-height: 1.2;
+        color: #455C78; 
+    }
+    .coding,
+    .design,
+    .link{
+    margin:0;
+    padding:2%;
+    }
+    .card{
+        margin:0;
+    }
 
 }
