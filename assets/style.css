@@ -51,7 +51,6 @@ h3 {
  }
 
 .about {
-    margin:2%;
     text-align: center;
     line-height: 1.5;
     color: #455C78; 
@@ -65,7 +64,7 @@ h3 {
     line-height: 1.2;
     color: #455C78; 
 }
-
+.about ,
 .coding,
 .design,
 .link{
@@ -146,26 +145,34 @@ footer h3, footer p{
         font-size:1em;
     }
     .about {
-        margin:0;
+        margin:2%;
         text-align: center;
         line-height: 1.2;
         color: #455C78;       
         padding: 20px 20px;
     }
-     .content {
-        margin: 0;
+    .content {
+        margin: 0 5px;
         text-align: center;
         line-height: 1.2;
         color: #455C78; 
     }
+    .about,
     .coding,
     .design,
     .link{
-    margin:0;
-    padding:0;
+        margin:5%;
+        padding:3%;
     }
     .card{
-        margin:5px 0;
+        margin:10px;
+        border-width: 2px;
+        border-color: rgb(116, 127, 145);
+        
+        
     }
-
+    .card-header{
+        background: #5F7593;
+        color:#F4F7FA;
+    }
 }
